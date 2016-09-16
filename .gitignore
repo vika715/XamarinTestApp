@@ -1,0 +1,13 @@
+/packages
+/TestApp/TestApp/bin
+/TestApp/TestApp/obj
+/TestApp/TestApp.iOS/bin
+/TestApp/TestApp.iOS/obj
+/TestApp/TestApp.Droid/bin
+/TestApp/TestApp.Droid/obj
+/TestApp/TestApp.UWP/bin
+/TestApp/TestApp.UWP/obj
+/TestApp/TestApp.Windows/bin
+/TestApp/TestApp.Windows/obj
+/TestApp/TestApp.WinPhone/bin
+/TestApp/TestApp.WinPhone/obj

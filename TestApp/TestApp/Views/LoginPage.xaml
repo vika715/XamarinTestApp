@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestApp.Views.LoginPage"
+             BackgroundColor="White">
+  <StackLayout 
+    VerticalOptions="Center"
+    Orientation="Vertical">
+    <Label Text="Добро пожаловать"
+           FontSize="36"
+           HorizontalOptions="Center"
+           TextColor="Black"/>
+    <Label Text="Для использования данного приложения необходима авторизация в социальной сети facebook."
+           FontSize="14"
+           HorizontalOptions="Center"
+           VerticalTextAlignment="Center"
+           HorizontalTextAlignment="Center"
+           TextColor="#333333"
+           Margin="16"/>
+    <Button Text="Log in with Facebook"
+            TextColor="White"
+            BackgroundColor="#01579B"
+            HorizontalOptions="Center"
+            FontSize="14"
+            Clicked="OnClickFBLoginButton"/>
+  
+   </StackLayout>
+</ContentPage>
